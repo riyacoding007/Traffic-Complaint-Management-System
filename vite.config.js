@@ -73,8 +73,8 @@ const manifestForPlugin = {
     theme_color: "#212121",
     background_color: "#D7FFFE",
     display: "standalone",
-    scope: "/",
-    start_url: "/",
+    scope: "/Traffic-Complaint-Management-System/",
+    start_url: "/Traffic-Complaint-Management-System/",
     orientation: "portrait",
   },
   devOptions: {
@@ -82,5 +82,6 @@ const manifestForPlugin = {
   },
 };
 export default defineConfig({
+  base: "/Traffic-Complaint-Management-System/",
   plugins: [react(), VitePWA(manifestForPlugin)],
 });
