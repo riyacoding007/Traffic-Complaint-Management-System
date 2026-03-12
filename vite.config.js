@@ -79,7 +79,7 @@ const manifestForPlugin = {
   },
   devOptions: {
     enabled: true,
-  },
+  }, 
 };
 export default defineConfig({
   base: "/Traffic-Complaint-Management-System/",

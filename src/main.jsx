@@ -12,7 +12,8 @@ import OfficialDashboard from "./pages/OfficialDashboard";
 import OfficialLogin from "./pages/OfficialLogin";
 import ReportComplaint from "./pages/ReportComplaint";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
   {
     path: "/",
     element: <HomePage />,
@@ -46,7 +47,11 @@ const router = createBrowserRouter([
       </>
     ),
   },
-]);
+],
+  {
+    basename: "/Traffic-Complaint-Management-System",
+  }
+);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
