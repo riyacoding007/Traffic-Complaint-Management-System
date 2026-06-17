@@ -52,7 +52,9 @@ $ npm i
 
 ## Contributing
 
-This project is created as part of our semester 6 project exhibition.
+This project is created as part of our semester 6 project exhibition. 
+deployed on github for now
+
 
 ## License
 
